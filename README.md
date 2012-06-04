@@ -1,5 +1,7 @@
-node-walker
+node-rwalk
 ===========
+
+[![build status](https://secure.travis-ci.org/sentientwaffle/node-walker.png)](http://travis-ci.org/sentientwaffle/node-walker)
 
 Recursively explore a directory.
 
@@ -18,7 +20,7 @@ Examples
 --------
 
 ``` js
-walk = require('walker')
+walk = require('rwalk')
 walk(__dirname, function(err, file) {
   if (err) throw err
   console.log("Found another file:", file)
