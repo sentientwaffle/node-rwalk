@@ -14,4 +14,16 @@ walk(dir, callback)
 It receives `(err, file)`.
 
 
+Examples
+--------
+
+``` js
+walk = require('walker')
+walk(__dirname, function(err, file) {
+  if (err) throw err
+  console.log("Found another file:", file)
+})
+```
+
+
 
