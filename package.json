@@ -1,15 +1,16 @@
 {
   "author": "sentientwaffle (http://sentientwaffle.github.com/)",
-  "name": "walker",
+  "name": "rwalk",
   "description": "recursively explore a directory",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.test.js"
+    "test": "tap test/*.test.js"
   },
   "dependencies": {},
-  "devDependencies": {},
-  "optionalDependencies": {},
+  "devDependencies": {
+    "tap": "~0.2.5"
+  },
   "engines": {
     "node": "*"
   }
